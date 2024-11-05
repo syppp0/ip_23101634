@@ -1,0 +1,63 @@
+<!--
+    연습문제 페이지 276 문제 6번
+    파일명 : code276_6.html
+-->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0px; padding: 0px;}
+        li{
+            list-style-type: none;
+            padding: 24px 0px;
+            border-bottom: 1px solid #c7c7c7;
+        }
+
+        div.left{
+            float:left;
+        }
+        div.right{
+            float: right;
+        }
+        div.content{padding:16px;}
+
+        @media screen and (min-width:390px) and (max-width:843px) {
+            .left{display: none; float:none;}
+            .right{width:100%; float:none;}
+        }
+        @media screen and (max-width:844px) {
+            .left{width: 30%;}
+            .right{width: 70%;}
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="left">
+            <div class="content">
+                <h1>List</h1>
+                <ul>
+                    <li>Velit ipsum ullamco</li>
+                    <li>Nulla qui officia anim</li>
+                    <li>quis proident tempor ipsum</li>
+                    <li>et sunt sit culpa ad</li>
+                    <li>fugiat reprehenderit sint mollit.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <div class="content">
+                <h1>Lorem ipsum</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint debitis suscipit voluptatibus aut, explicabo quisquam optio assumenda doloremque eveniet magni aliquid aliquam vero perferendis hic autem? Adipisci, aliquam! Ut, placeat!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint debitis suscipit voluptatibus aut, explicabo quisquam optio assumenda doloremque eveniet magni aliquid aliquam vero perferendis hic autem? Adipisci, aliquam! Ut, placeat!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint debitis suscipit voluptatibus aut, explicabo quisquam optio assumenda doloremque eveniet magni aliquid aliquam vero perferendis hic autem? Adipisci, aliquam! Ut, placeat!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint debitis suscipit voluptatibus aut, explicabo quisquam optio assumenda doloremque eveniet magni aliquid aliquam vero perferendis hic autem? Adipisci, aliquam! Ut, placeat!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint debitis suscipit voluptatibus aut, explicabo quisquam optio assumenda doloremque eveniet magni aliquid aliquam vero perferendis hic autem? Adipisci, aliquam! Ut, placeat!</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

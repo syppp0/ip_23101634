@@ -1,0 +1,25 @@
+<!--
+    연습문제 페이지 342 문제 21번
+    파일명 : code342_21.html
+-->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let num = prompt("숫자 입력");
+        num = Number(num);
+
+        function factorial(n) {
+            return (n != 1) ? n * factorial(n - 1) : 1;
+            }
+
+        alert(num+"! = "+factorial(num) );
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

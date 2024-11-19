@@ -1,0 +1,59 @@
+<!--
+    연습문제 페이지 342 문제 19번
+    파일명 : code342_19.html
+-->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let year = prompt("태어난 연도를 입력하시오.");
+        year = Number(year%12);
+        let yourYear = "";
+        switch(year){
+            case 0 :
+                yourYear = "원숭이띠";
+                break;
+            case 1:
+                yourYear = "닭띠";
+                break;
+            case 2:
+                yourYear = "개띠";
+                break;
+            case 3:
+                yourYear = "돼지띠";
+                break;
+            case 4:
+                yourYear = "쥐띠";
+                break;
+            case 5:
+                yourYear = "소띠";
+                break;
+            case 6:
+                yourYear = "범띠";
+                break;
+            case 7:
+                yourYear = "토끼띠";
+                break;
+            case 8:
+                yourYear = "용띠";
+                break;
+            case 9:
+                yourYear = "뱀띠";
+                break;
+            case 10:
+                yourYear = "말띠";
+                break;
+            case 11:
+                yourYear = "양띠";
+                break;
+        }
+        alert("당신의 띠는 " + yourYear);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

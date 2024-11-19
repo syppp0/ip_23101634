@@ -10,11 +10,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
-        function length(cm){
-            alert('inch = '+(cm*0.393701));
-            alert('feet'+(cm*0.0328084));
-        };
-        alert(length(2.54));
+        let input = prompt("입력: ");
+        cm = Number(input);
+
+        let inch = cm*0.393701;
+        let feet = cm*0.0328084;
+
+        alert(inch);
+        alert(feet);
+        
     </script>
 </head>
 <body>

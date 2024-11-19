@@ -1,0 +1,28 @@
+<!--
+    연습문제 페이지 341 문제 18번
+    파일명 : code341_18.html
+-->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let num = prompt("네 자리 정수를 입력하시오");
+
+        thousand = parseInt(num/1000);
+        hundred = parseInt(num%1000/100);
+        ten = parseInt(num%1000%100/10);
+        one = parseInt(num%1000%100%10/1);
+
+        alert("천의 자리 : "+thousand);
+        alert("백의 자리 : "+hundred);
+        alert("십의 자리 : "+ten);
+        alert("일의 자리 : "+one);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
